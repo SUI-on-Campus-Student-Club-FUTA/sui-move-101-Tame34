@@ -1,9 +1,6 @@
-/*
-/// Module: my_first_sui_project
-module my_first_sui_project::my_first_sui_project;
-*/
+module hello_sui::hello {
 
-// For Move coding conventions, see
-// https://docs.sui.io/concepts/sui-move-concepts/conventions
-
-
+    public fun say_hello(): u64 {
+        42
+    }
+}
